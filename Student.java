@@ -65,4 +65,15 @@ public class Student {
     public void setEmail(String newEmail) {
         email = newEmail;
     }
+
+    public void complain() {
+        System.out.println("I have too much work");
+    }
+
+    public void doHomework(int numAssignments) {
+        for (int i = numAssignments; i > 0; i--) {
+            System.out.println("Working working working...");
+        }
+        System.out.println("Done with homework!");
+    }
  }

@@ -32,5 +32,11 @@ public class Main {
       
       var brimble = 3 + 5 + "hello bryce" + 2.5;
       System.out.println(brimble);
+
+      // no output needs input
+      kinder.doHomework(8);
+
+      // no output no input
+      junior.complain();
    }
 }
