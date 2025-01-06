@@ -38,5 +38,8 @@ public class Main {
 
       // no output no input
       junior.complain();
+
+      // testing the student class documentation
+      StudentDocs test = new StudentDocs()
    }
 }
