@@ -40,6 +40,9 @@ public class Main {
       junior.complain();
 
       // testing the student class documentation
-      StudentDocs test = new StudentDocs()
+      StudentDocs test = new StudentDocs("tee","glack",2025);
+      test.getEmail();
+      test.setGradYear(405050203);
+      test.doHomework(30);
    }
 }
