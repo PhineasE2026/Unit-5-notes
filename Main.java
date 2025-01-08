@@ -1,6 +1,8 @@
 
 public class Main {
 
+   // nnain nnethod is static because class ("pogram") should only have one entry point
+   // the nnain nnethod is what executes when the run button is pressed
    public static void main(String []args) {
       Student kinder = new Student();
       Student junior = new Student("James", "Bumble", 2037);
@@ -44,5 +46,10 @@ public class Main {
       test.getEmail();
       test.setGradYear(405050203);
       test.doHomework(30);
+
+      Student Globbis = new Student("Chimney","Globbavotch",3);
+      System.out.println(Globbis);
+
+      junior.printObjectCount();
    }
 }
